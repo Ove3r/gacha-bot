@@ -34,6 +34,7 @@ class BannerName(EventBanner):
     self.rate_up_four_star_pool = [] # List of names of 4 star outcomes that have their odds increased (cumulative 50%)
     self.four_star_pool = [] # List of names for the other potential 4 star outcomes
     self.three_star_pool = [] # List of three star outcomes
+    self.banner_image = "" # Url for the banner image
     
     # Introductory Embed
     embed = Embed(title=self.banner_name, description=f"Featured Characters: **{self.event_hero}**, {', '.join(self.rate_up_four_star_pool)}", color=0x2aec27)
