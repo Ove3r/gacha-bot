@@ -12,7 +12,7 @@
 discord.py==1.6.0 
 pymongo==3.11.3 
 dnspython==2.1.0
-dotenv==0.15.0
+python-dotenv
 ```
 **Environment Variables**:
 ```
