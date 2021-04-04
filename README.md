@@ -1,18 +1,20 @@
 # Genshin Inpact Wish Simulation Discord Bot
 
-**Features**: 
-- Discord embed reaction menu for wishes
-- Simple code scaling for any newes banners
-- Fully accurate wish pity emulating the game
-- MongoDB for user data
-
-**Bot Links**:
+## Bot Links
 
 [Invite](https://discord.com/api/oauth2/authorize?client_id=824410926937407529&permissions=387136&scope=bot)
 
 [Reddit](https://www.reddit.com/r/Genshin_Impact/comments/mjkslt/wish_simulator_discord_bot/)
 
 [Official Discord](https://discord.com/invite/aR7RHCC5zd)
+
+_____
+
+## Features 
+- Discord embed reaction menu for wishes
+- Simple code scaling for any newes banners
+- Fully accurate wish pity emulating the game
+- MongoDB for user data
 
 
 # Installation & Setup
