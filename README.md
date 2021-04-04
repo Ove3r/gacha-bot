@@ -6,6 +6,15 @@
 - Fully accurate wish pity emulating the game
 - MongoDB for user data
 
+**Bot Links**:
+
+[Invite](https://discord.com/api/oauth2/authorize?client_id=824410926937407529&permissions=387136&scope=bot)
+
+[Reddit](https://www.reddit.com/r/Genshin_Impact/comments/mjkslt/wish_simulator_discord_bot/)
+
+[Official Discord](https://discord.com/invite/aR7RHCC5zd)
+
+
 # Installation & Setup
 **Python Packages**: 
 ```
