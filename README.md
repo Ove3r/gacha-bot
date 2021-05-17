@@ -40,7 +40,7 @@ class BannerName(EventBanner):
   def __init__(self):
     super().__init() # This is required for establishing the mongoDB connection and embed initialization
     self.banner_name = "" # Name of the banner displayed in the embed summary
-    self.event_hero = "" # Name of the features banner hero
+    self.event_hero = "" # Name of the featured banner hero
     self.five_star_pool = [] # List of names for the other potential 5 star outcomes
     self.rate_up_four_star_pool = [] # List of names of 4 star outcomes that have their odds increased (cumulative 50%)
     self.four_star_pool = [] # List of names for the other potential 4 star outcomes
@@ -52,6 +52,7 @@ class BannerName(EventBanner):
     embed.set_image(url="https://i.imgur.com/mmhqoiY.gif")
     embed.set_footer(text="Gacha Bot by Over#6203. Use the reactions to navigate the menus.")
     
+    # Adds the embed to the output embed list
     self.embed_list.append(embed.copy())
     
 ```
@@ -63,7 +64,3 @@ This should be in the format of:
 "User Call": BannerClassName
 ```
 
-# TODO
-- [ ] Add support for the standard banner.
-- [ ] Add better support for the weapon banner.
-- [ ] Custom help command and banner info
