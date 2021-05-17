@@ -12,7 +12,7 @@ _____
 
 ## Features 
 - Discord embed reaction menu for wishes
-- Simple code scaling for any newes banners
+- Simple code scaling for any additional banners
 - Fully accurate wish pity emulating the game
 - MongoDB for user data
 
